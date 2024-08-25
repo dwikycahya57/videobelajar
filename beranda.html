@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoBelajar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #f97316;
+            font-size: 24px;
+        }
+
+        .hero-section {
+            background-image: url('https://i.ibb.co.com/ZB18XB5/workplace3.png'); /* Gambar Placeholder */
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .hero-section button {
+            padding: 15px 30px;
+            background-color: #28a745;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .hero-section button:hover {
+            background-color: #218838;
+        }
+
+        .content-section {
+            padding: 40px 20px;
+        }
+
+        .content-section h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .video-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .video-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: left;
+            overflow: hidden;
+        }
+
+        .video-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .video-card .card-body {
+            padding: 20px;
+        }
+
+        .video-card h4 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .video-card p {
+            color: #888;
+            margin-bottom: 15px;
+        }
+
+        .video-card .card-footer {
+            padding: 15px 20px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .video-card .price {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .cta-section {
+            background-image: url('https://i.ibb.co.com/bB5L218/toga1.jpg'); /* Gambar Placeholder */
+            background-size: cover;
+            background-position: center;
+            padding: 50px 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .cta-section h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .cta-section button {
+            padding: 15px 30px;
+            background-color: #28a745;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .cta-section button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        footer .footer-logo {
+            font-size: 20px;
+            color: #f97316;
+            margin-bottom: 20px;
+        }
+
+        footer .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+
+        footer .footer-links a {
+            color: #888;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        footer .footer-links a:hover {
+            color: #000;
+        }
+
+        footer .footer-socials {
+            margin-bottom: 20px;
+        }
+
+        footer .footer-socials img {
+            width: 30px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        footer p {
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>videobelajar</h1>
+    <div>
+        <img src="https://i.ibb.co.com/jJCgr8z/dwiky1.jpg" alt="User Avatar" style="border-radius: 50%;"> <!-- gambar placeholder -->
+    </div>
+</header>
+
+<section class="hero-section">
+    <h2>Revolusi Pembelajaran: Temukan Ilmu Baru melalui Platform Video Interaktif!</h2>
+    <p>Temukan ilmu baru yang menarik dan mendalam melalui koleksi video pembelajaran berkualitas tinggi. 
+        Tidak hanya itu, anda juga dapat berpatisipasi dalam latihan interaktif yang akan
+         meningkatkan pemahaman anda.</p>
+    <button>Temukan Video Course Untuk Dipelajari</button>
+</section>
+
+<section class="content-section">
+    <h3>Koleksi Video Pembelajaran Unggulan</h3>
+    <p>Jelajahi topik-topik terpopuler di platform kami</p>
+    <div class="video-grid">
+        <!-- Katalog -->
+        <div class="video-card">
+            <img src="https://i.ibb.co.com/CwrHt2y/book1.jpg" alt="Video Thumbnail">
+            <div class="card-body">
+                <h4>Big 4 Auditor Financial Analyst</h4>
+                <p>Mulai transformasi dengan instruktur professional, harga yang terjangkau, dan pembelajaran yang menarik</p>
+            </div>
+            <div class="card-footer">
+                <span class="price">Rp 350k</span>
+            </div>
+        </div>
+        <div class="video-card">
+            <img src="https://i.ibb.co.com/CwrHt2y/book1.jpg" alt="Video Thumbnail">
+            <div class="card-body">
+                <h4>Big 4 Auditor Financial Analyst</h4>
+                <p>Mulai transformasi dengan instruktur professional, harga yang terjangkau, dan pembelajaran yang menarik</p>
+            </div>
+            <div class="card-footer">
+                <span class="price">Rp 350k</span>
+            </div>
+        </div>
+        <div class="video-card">
+            <img src="https://i.ibb.co.com/CwrHt2y/book1.jpg" alt="Video Thumbnail">
+            <div class="card-body">
+                <h4>Big 4 Auditor Financial Analyst</h4>
+                <p>Mulai transformasi dengan instruktur professional, harga yang terjangkau, dan pembelajaran yang menarik</p>
+            </div>
+            <div class="card-footer">
+                <span class="price">Rp 350k</span>
+            </div>
+        </div>
+        <div class="video-card">
+            <img src="https://i.ibb.co.com/CwrHt2y/book1.jpg" alt="Video Thumbnail">
+            <div class="card-body">
+                <h4>Big 4 Auditor Financial Analyst</h4>
+                <p>Mulai transformasi dengan instruktur professional, harga yang terjangkau, dan pembelajaran yang menarik.</p>
+            </div>
+            <div class="card-footer">
+                <span class="price">Rp 350k</span>
+            </div>
+        </div>
+        <div class="video-card">
+            <img src="https://i.ibb.co.com/CwrHt2y/book1.jpg" alt="Video Thumbnail">
+            <div class="card-body">
+                <h4>Big 4 Auditor Financial Analyst</h4>
+                <p>Mulai transformasi dengan instruktur professional, harga yang terjangkau, dan pembelajaran yang menarik</p>
+            </div>
+            <div class="card-footer">
+                <span class="price">Rp 350k</span>
+            </div>
+        </div>
+        <div class="video-card">
+            <img src="https://i.ibb.co.com/CwrHt2y/book1.jpg" alt="Video Thumbnail">
+            <div class="card-body">
+                <h4>Big 4 Auditor Financial Analyst</h4>
+                <p>Mulai transformasi dengan instruktur professional, harga yang terjangkau, dan pembelajaran yang menarik</p>
+            </div>
+            <div class="card-footer">
+                <span class="price">Rp 350k</span>
+            </div>
+        </div>
+        <div class="video-card">
+            <img src="https://i.ibb.co.com/CwrHt2y/book1.jpg" alt="Video Thumbnail">
+            <div class="card-body">
+                <h4>Big 4 Auditor Financial Analyst</h4>
+                <p>Mulai transformasi dengan instruktur professional, harga yang terjangkau, dan pembelajaran yang menarik</p>
+            </div>
+            <div class="card-footer">
+                <span class="price">Rp 350k</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <h3>Mau Belajar Lebih Banyak?</h3>
+    <p>Jangan ragu untuk mengeksplorasi lebih banyak konten pembelajaran yang tersedia di platform kami.</p>
+    <button>Lihat Semua Video</button>
+</section>
+
+<footer>
+    <div class="footer-logo">videobelajar</div>
+    <div class="footer-links">
+        <a href="#">Tentang</a>
+        <a href="#">Panduan</a>
+        <a href="#">Kontak</a>
+        <a href="#">Kebijakan Privasi</a>
+    </div>
+    <div class="footer-socials">
+        <img src="https://i.ibb.co.com/X2qT0cc/facebook.png" alt="Facebook">
+        <img src="https://i.ibb.co.com/VqM1Ly2/X-Logo.jpg" alt="Twitter">
+        <img src="https://i.ibb.co.com/HB29DbJ/instagram.png" alt="Instagram">
+    </div>
+    <p>©2024 13021</p>
+</footer>
+</body>
+</html>
